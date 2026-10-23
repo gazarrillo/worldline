@@ -6,7 +6,9 @@
 [![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
 [![Built with Bun](https://img.shields.io/badge/built%20with-Bun-f9f1e1.svg)](https://bun.sh)
 
-![The Worldline political map of the world on 31 January 2026, with the turn bar at the top and the chronicle at the bottom](docs/images/world-map.jpg)
+![A turn of Worldline: claiming Germany in the lobby, writing two orders, negotiating air defence with France, who answers with a counter-offer and a draft defensive pact, then the turn report and the month's events playing out on the map](docs/images/worldline-demo.gif)
+
+<sub>Recorded with a live model (OpenRouter's free models with a DeepSeek fallback); waiting for the turn to resolve is cut and the typing is sped up.</sub>
 
 Worldline starts on 1 January 2026 (or 1 October 1962, or any world you build in the editor) on a political map in the style of Victoria 3. Each turn you and your friends give orders such as "open talks with Brazil on a rail corridor", "move two divisions to the border" or "call a snap election". An AI World Director plans what every other government does, a resolver turns everyone's orders into events, and a deterministic rules engine checks every effect before it touches the map: it refuses or scales down anything the world's state doesn't allow.
 
@@ -29,6 +31,12 @@ It runs entirely on your machine. Without an API key it uses an offline mock, so
 
 <table>
   <tr>
+    <td colspan="2">
+      <img src="docs/images/world-map.jpg" alt="The Worldline political map of the world on 31 January 2026, with the turn bar at the top and the chronicle at the bottom">
+      <br><sub><b>The world in 2026.</b> 201 nations on a map generated from Natural Earth data, drawn in WebGL2.</sub>
+    </td>
+  </tr>
+  <tr>
     <td width="50%">
       <img src="docs/images/diplomacy.jpg" alt="Germany's orders panel showing last turn's verdicts, next to a diplomatic chat with France">
       <br><sub><b>Orders and diplomacy.</b> Last turn's verdicts on the left, a negotiation with France on the right.</sub>
@@ -45,7 +53,7 @@ It runs entirely on your machine. Without an API key it uses an offline mock, so
     </td>
     <td width="50%">
       <img src="docs/images/relations-map.jpg" alt="The relations map mode, colouring Europe from hostile to friendly relative to Germany">
-      <br><sub><b>Map modes.</b> Relations, organisations, wars, GDP and stability, here relations with Germany.</sub>
+      <br><sub><b>Map modes.</b> Relations, organisations, wars, GDP, stability and power rank, here relations with Germany.</sub>
     </td>
   </tr>
   <tr>
@@ -60,7 +68,7 @@ It runs entirely on your machine. Without an API key it uses an offline mock, so
   </tr>
 </table>
 
-<sub>Screenshots were taken with the offline mock AI, so the event and chat text is simpler than a real model writes.</sub>
+<sub>These screenshots were taken with the offline mock AI, so their event and chat text is simpler than a real model writes; the animation above shows a live model.</sub>
 
 ## Quick start
 
